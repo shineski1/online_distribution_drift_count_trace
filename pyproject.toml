@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "shineski1-embodiedalgo_jd044"
+name = "shineski1-online_distribution_drift_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出具身智能算法工程师·线上分布漂移的检测上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://shineski1.github.io"
-Repository = "https://github.com/shineski1/embodiedalgo_jd044"
-Issues = "https://github.com/shineski1/embodiedalgo_jd044/issues"
+Repository = "https://github.com/shineski1/online_distribution_drift_count_trace"
+Issues = "https://github.com/shineski1/online_distribution_drift_count_trace/issues"
 
 [project.scripts]
-embodiedalgo_jd044 = "embodiedalgo_jd044:main"
+online_distribution_drift_count_trace = "online_distribution_drift_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["embodiedalgo_jd044"]
+py-modules = ["online_distribution_drift_count_trace"]

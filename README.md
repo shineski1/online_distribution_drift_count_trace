@@ -1,11 +1,11 @@
-# embodiedalgo_jd044
+# online_distribution_drift_count_trace
 
 **追溯具身智能算法工程师·线上分布漂移的检测里每一份贡献来自哪里。**
 
-`embodiedalgo_jd044` —— 统计各来源片段的贡献量与占比，标出具身智能算法工程师·线上分布漂移的检测上最主要的来源
+`online_distribution_drift_count_trace` —— 统计各来源片段的贡献量与占比，标出具身智能算法工程师·线上分布漂移的检测上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`embodiedalgo_jd044.py` 拷走就能用
+- 单文件，`online_distribution_drift_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install shineski1-embodiedalgo_jd044
+pip install shineski1-online_distribution_drift_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-embodiedalgo_jd044 --help
+online_distribution_drift_count_trace --help
 ```
 
-也可以不用安装，直接把 `embodiedalgo_jd044.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `online_distribution_drift_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ embodiedalgo_jd044 --help
 ## 用法
 
 ```bash
-python embodiedalgo_jd044.py --file input.txt
-python embodiedalgo_jd044.py --text "示例内容"
-python embodiedalgo_jd044.py --file input.txt --json
+python online_distribution_drift_count_trace.py --file input.txt
+python online_distribution_drift_count_trace.py --text "示例内容"
+python online_distribution_drift_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python embodiedalgo_jd044.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_embodiedalgo_jd044.py
+python test_online_distribution_drift_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_embodiedalgo_jd044.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/shineski1/embodiedalgo_jd044>
+- GitHub 仓库：<https://github.com/shineski1/online_distribution_drift_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_embodiedalgo_jd044.py
 shineski1 做具身智能算法工程师·线上分布漂移的检测相关的问题，方向对标百川智能的初级具身智能算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://shineski1.github.io>
-- 仓库：<https://github.com/shineski1/embodiedalgo_jd044>
+- 仓库：<https://github.com/shineski1/online_distribution_drift_count_trace>
 
 ## 许可
 
